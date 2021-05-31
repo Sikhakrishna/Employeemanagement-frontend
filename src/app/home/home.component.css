@@ -1,0 +1,27 @@
+.topnav{
+background-color: gray;
+overflow: scroll;
+}
+.topnav a {
+    float:left;
+    color:rgb(15, 7, 12);
+    text-align: center;
+    padding: 19px 22px;
+    text-decoration:none;
+    font-size:17px;
+
+}
+
+.topnav a:hover{
+    background-color: rgb(34, 19, 170);
+    color:black;
+
+}
+
+/* .topnav a.active{
+    background-color: chocolate;
+    color:crimson;
+} */
+/* .topnav{
+    background-image: url("infosys-nyn-tagline-jpg.jpg");
+} */

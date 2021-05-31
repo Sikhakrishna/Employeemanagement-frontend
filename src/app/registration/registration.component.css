@@ -1,0 +1,8 @@
+.btnstyle{
+    color:yellow;
+    
+}
+.btnstyle a:hover{
+    background-color: yellow;
+    color:black;
+}
