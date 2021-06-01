@@ -29,7 +29,8 @@ export class RegistrationComponent implements OnInit {
       designation: new FormControl('')
     });
   }
- register(){
+ register(){ 
+   
   // let resp=this.service.addEmployee(this.employee);
   // resp.subscribe((data)=>this.message=data);
 const employee=new User();
