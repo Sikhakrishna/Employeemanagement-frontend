@@ -10,6 +10,17 @@ export class SearchDeleteComponent implements OnInit {
 employees:any;
 employeeId:any;
 // message:any;
+
+// employeeDetails = null as any;
+//   employeeToUpdate = {
+//     employeeId:"",
+//     name:"",
+//     emailId:"",
+//     designation:""
+//   };
+
+
+
   constructor(private service:UserRegistrationService) { }
   
   public getEmployee(employeeId){
@@ -27,18 +38,21 @@ resp.subscribe((data)=>this.employees=data);
 //   resp.subscribe((data)=>this.employees=data);
 // }
 
-// update(){
-  
-// const employee=new User();
-// employee.employeeId=this.sampleForm.get('employeeId').value;
-// employee.name=this.sampleForm.get('name').value;
-// employee.emailId=this.sampleForm.get('emailId').value;
-// employee.designation=this.sampleForm.get('designation').value;
-// this.service.updateEmployee(employee).subscribe(res=>{
-//   if(res){
-//     alert("updated successfully");
-//   }
-// })
+
+
+// edit(employee: any){
+//   this.employeeToUpdate = employee;
+// }
+
+// updateEmployees(){
+//   this.service.updateEmployee(this.employeeToUpdate).subscribe(
+//     (resp) => {
+//       console.log(resp);
+//     },
+//     (err) => {
+//       console.log(err);
+//     }
+//   );
 // }
 
   ngOnInit(): void {

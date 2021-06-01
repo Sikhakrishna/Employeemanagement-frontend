@@ -20,7 +20,7 @@ return this.http.post<string>("http://localhost:8080/employee/employees",employe
        public deleteemployeebyId(employeeId){
         return this.http.delete("http://localhost:8080/employee/employees/"+employeeId);
          }
-        //  public updateEmployee(employeeId){ 
-        //   return this.http.put<string>("http://localhost:8080/employee/employees/"+employeeId,employee,{responseType: 'text' as 'json'});  
+        //  public updateEmployee(employee:any){ 
+        //   return this.http.put<string>("http://localhost:8080/employee/employees/",employee,{responseType: 'text' as 'json'});  
         // }  
 }
