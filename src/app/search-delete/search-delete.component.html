@@ -10,7 +10,7 @@
                                 <div class="input-group col-md-12" style="text-align: center">
                                     <input type="number" class="search-query form-control" placeholder="Search With Employee Id"  name="employeeId" >
                                     <span class="input-group-btn">
-                                        <button class="btn btn-success" type="button" (click)="getEmployee()">
+                                        <button class="btn btn-success" type="button" (click)="getEmployee(employeeId)">
                                             <span class=" glyphicon glyphicon-search"></span>
                                         </button>
                                     </span>
@@ -39,7 +39,7 @@
             <td>{{employee.designation}}</td>
             
             <td class="text-center"><button class="btn btn-danger btn-xs" (click)="deleteEmployee(employee.employeeId)"><span class="glyphicon glyphicon-remove"></span> Delete</button></td>
-            <!-- <td class="text-center"><button class="btn btn-primary btn-xs" (click)="updateEmployee(employee.employeeId)"><span class="glyphicon glyphicon-update"></span>Update</button></td> -->
+            <!-- <td class="text-center"><button class="btn btn-primary btn-xs" (click)="updateEmployee(employee)"><span class="glyphicon glyphicon-update"></span>Update</button></td> -->
           </tr>
           <!-- <div style="text-align: center">
             <h3>{{message}}</h3>
