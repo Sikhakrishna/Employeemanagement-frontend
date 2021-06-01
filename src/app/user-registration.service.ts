@@ -21,6 +21,6 @@ return this.http.post<string>("http://localhost:8080/employee/employees",employe
         return this.http.delete("http://localhost:8080/employee/employees/"+employeeId);
          }
         //  public updateEmployee(employeeId){ 
-        //   return this.http.put<string>("http://localhost:8080/employee/employees/"+employeeId,{responseType: 'text' as 'json'});  
+        //   return this.http.put<string>("http://localhost:8080/employee/employees/"+employeeId,employee,{responseType: 'text' as 'json'});  
         // }  
 }
