@@ -4,7 +4,7 @@
 <script src="//code.jquery.com/jquery-1.11.1.min.js"></script>
 <!------ Include the above in your HEAD tag ---------->
 
-<div class="container">
+<!-- <div class="container">
     <div class="row">
                <div id="custom-search-input">
                                 <div class="input-group col-md-12" style="text-align: center">
@@ -17,7 +17,7 @@
                                 </div>
                             </div>
     </div>
-    </div>
+    </div> -->
 <div class="container">
 <div class="container">
     <div class="row col-md-6 col-md-offset-2 custyle">
@@ -39,13 +39,30 @@
             <td>{{employee.designation}}</td>
             
             <td class="text-center"><button class="btn btn-danger btn-xs" (click)="deleteEmployee(employee.employeeId)"><span class="glyphicon glyphicon-remove"></span> Delete</button></td>
-            <!-- <td class="text-center"><button class="btn btn-primary btn-xs" data-bs-toggle="modal" data-bs-target="#exampleModal" (click)="updateEmployees(employee)"><span class="glyphicon glyphicon-update"></span>Update</button></td> -->
+            <td class="text-center"><button class="btn btn-primary btn-xs"  (click)="updatedetails(employee.employeeId)"><span class="glyphicon glyphicon-update"></span>Update</button></td>
+        </tr>
+          
+    </tbody>
+    </table>
+
+    </div>
+</div>
+
+
+
+
+
+
+
+
+
+
 
 <!-- code from here are for adding data modal..can be removed -->
             
-<!-- <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal">
+ <!-- <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal">
     Launch demo modal
-  </button> -->
+  </button>  -->
   
   
   <!-- <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
@@ -64,44 +81,44 @@
                         <fieldset>
                             <legend class="text-center">Valid information is required to register. <span class="req"><small>
                                         required *</small></span></legend>
-                               -->
+                              
                                         
         
-                             <!-- <div class="form-group">
+                             <div class="form-group">
                                 <label for="name"><span class="req">* </span> Name:</label>
                                 <input class="form-control" type="text" name="name" formControlName="name" id="name"
                                 placeholder="Enter your name"/>
                                 <input required type="text"  name="name" id="name"
                                     class="form-control" maxlength="28" placeholder="Enter your name..." /> 
-                            </div> -->
+                            </div>
         
-                            <!-- <div class="form-group">
+                            <div class="form-group">
                                 <label for="emailId"><span class="req">* </span> Email Id: </label>
                                 <input class="form-control" type="email"  name="emailId" formControlName="emailId" id="emailId" 
                                     placeholder="Enter valid email address" />
                                 
-                            </div> -->
-                            <!-- <div class="form-group">
+                            </div>
+                            <div class="form-group">
                                 <label for="designation"><span class="req">* </span> Designation : </label>
                                 <input class="form-control" required type="text"   formControlName="designation" id="designation"
                                     placeholder="Enter your Designation" />
                                 
                             </div>
-          -->
+         
                             
-                            <!-- <div class="btnstyle">
+                            <div class="btnstyle">
                             <button><a href="http://localhost:4200/search">Click here to view employee details:)</a></button>
                         </div>
-                        </fieldset>   -->
-                    <!-- </form>ends register form  -->
+                        </fieldset>  
+                    </form>
                     
-                <!-- </div>ends col-6 -->
+                </div>
         
-            <!-- </div> -->
-        <!-- </div> -->
+            </div>
+        </div> 
         
 
-         <!-- </div> 
+         </div> 
         <div class="modal-footer">
           <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
           <button type="button" class="btn btn-primary">Save changes</button>
@@ -109,19 +126,17 @@
       </div>
     </div>
   </div> -->
-  
+   
 
 
 
 
 
-          </tr>
-          <!-- <div style="text-align: center">
-            <h3>{{message}}</h3>
-        </div> -->
+          <!-- </tr>
+          
     </tbody>
     </table>
 
     </div>
-</div>
+</div> -->
 

@@ -20,7 +20,7 @@
 
                     <div class="form-group">
                         <label for="name"><span class="req">* </span> Name:</label>
-                        <input class="form-control" type="text" name="name" formControlName="name" id="name"
+                        <input class="form-control" type="text" name="name" formControlName="name" id="name" 
                         placeholder="Enter your name"/>
                         <!-- <input required type="text"  name="name" id="name"
                             class="form-control" maxlength="28" placeholder="Enter your name..." /> -->
@@ -28,13 +28,13 @@
 
                     <div class="form-group">
                         <label for="emailId"><span class="req">* </span> Email Id: </label>
-                        <input class="form-control" type="email"  name="emailId" formControlName="emailId" id="emailId" 
+                        <input class="form-control" type="email"  name="emailId" formControlName="emailId" id="emailId"  
                             placeholder="Enter valid email address" />
                         
                     </div>
                     <div class="form-group">
                         <label for="designation"><span class="req">* </span> Designation : </label>
-                        <input class="form-control" required type="text"   formControlName="designation" id="designation"
+                        <input class="form-control" required type="text"   formControlName="designation" id="designation" 
                             placeholder="Enter your Designation" />
                         
                     </div>
@@ -47,6 +47,9 @@
                     </div> -->
                     <div class="form-group">
                         <input class="btn btn-success" type="submit" name="submit_reg" value="Register" (click)="register()">
+                    </div>
+                    <div class="form-group">
+                        <input class="btn btn-success" type="submit" name="submit_updt" value="Update" (click)="update()">
                     </div>
 
                     <!-- <div class="form-group">
